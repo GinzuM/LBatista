@@ -144,6 +144,10 @@ button.slick-next {
 
 }
 
+.slick-slide {
+    height: 800%;
+}
+
 
 .slick-initialized {
     overflow: hidden;
