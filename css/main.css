@@ -109,7 +109,6 @@ main {
     width: 100%;
     float: left;
     position: relative;
-    height: 75px;
 }
 
 button.slick-prev {
@@ -143,11 +142,6 @@ button.slick-next {
     width: 100% !important;
 
 }
-
-.slick-slide {
-    height: 800%;
-}
-
 
 .slick-initialized {
     overflow: hidden;
