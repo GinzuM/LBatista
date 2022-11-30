@@ -1,0 +1,198 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #058fb1;
+    height: 80px;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+
+
+.logo {
+    float: left;
+    padding: 15px;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    margin-left: 55px;
+    list-style: none;
+
+}
+
+.redes-sociais {
+    width: 25%;
+    float: left;
+}
+
+.header-2 {
+    background-color: #ffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    width: 80px;
+}
+
+
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    height: 50px;
+    margin-left: 15px;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+    height: 36px;
+    margin-top: 3px;
+    padding: 10px;
+    width: 200px;
+
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 75px;
+}
+
+button.slick-prev {
+    font-size: 0;
+    border: none;
+    height: 78px;
+    width: 50px;
+    background-color: transparent;
+    background-image: url('../img/seta-esquerda.png');
+    z-index: 9;
+    position: absolute;
+    top: 210;
+    left: 150;
+}
+
+button.slick-next {
+    font-size: 0;
+    border: none;
+    height: 78px;
+    width: 50px;
+    background-color: transparent;
+    background-image: url('../img/seta-direita.png');
+    z-index: 9;
+    position: absolute;
+    top: 210;
+    right: 165;
+}
+
+
+.slider-principal {
+    width: 100% !important;
+
+}
+
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #e3dddd;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 664px;
+    background-color: transparent;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+li.slick-active button {
+    background-color: #00bac6;
+}
+
+.texto-destaque {
+    margin: 0;
+    width: 980px;
+    position: relative;
+    top: 650px;
+    left: 250px;
+
+}
+
+
+.texto-destaque p {
+    font-size: 17px;
+    margin-left: 45px;
+}
+
+.texto-destaque h1 {
+    margin-left: 235px;
+}
