@@ -14,14 +14,11 @@ ul {
     background-color: #058fb1;
     height: 80px;
 }
-.container{
-    float: left;
-    width: 100%
-}
+
 
 main {
     margin: 0 auto;
-    width: 79.67479674796748%;
+    width: 980px;
     position: relative;
 
 }
